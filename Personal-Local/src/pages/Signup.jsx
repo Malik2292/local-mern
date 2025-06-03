@@ -18,6 +18,7 @@ export default function Signup() {
 
     try {
       const response = await axios.post(
+        // "http://16.171.158.43:3001/auth/auth/signup",
         "http://16.171.158.43:3001/auth/auth/signup",
         {
           first_name: firstName,
